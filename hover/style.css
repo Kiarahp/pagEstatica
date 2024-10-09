@@ -1,0 +1,15 @@
+header {
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+} 
+main{
+    height: 800px;
+    width: 100%;
+    background-color:aquamarine;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color:blue;
+}
