@@ -1,15 +1,49 @@
 header {
     height: 50px;
     width: 100%;
-    background-color: brown;
+    background-color:peru;
 } 
-main{
+main {
     height: 800px;
     width: 100%;
     background-color:aquamarine;
 }
-footer{
+footer {
     height: 100px;
     width: 100%;
-    background-color:blue;
+    background-color:rebeccapurple;
+}
+.testContainerHover {
+    display: flex;
+    justify-content: space-between;
+}
+.lampada {
+    height: 1000px;
+    width: 1000px;
+    background-image: url("https://i.sstatic.net/b983w.jpg");
+    background-size: 100% auto;
+}
+.lampada:hover {
+    height: 1000px;
+    width: 1000px;
+    background-image: url("https://img.myloview.com.br/fotomurais/lampada-acesa-luz-700-1109866.jpg");
+}
+.verde {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(36, 156, 36);
+}
+.verde:hover {
+    background-color: red;
+}
+.resize {
+    height: 100px;
+    width: 100px;
+    background-color:teal;
+}
+.resize:hover {
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+
 }
